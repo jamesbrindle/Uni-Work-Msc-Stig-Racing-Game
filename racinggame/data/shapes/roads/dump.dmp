@@ -1,0 +1,135 @@
+Max file C:\Users\Alex\Documents\NetBeansProjects\GamesProgramming\racinggame\data\shapes\roads\monza.max exported to c:\users\alex\documents\netbeansprojects\gamesprogramming\racinggame\data\shapes\roads\road1.dts
+Exported on Thu Dec 03 15:49:26 2009
+
+
+Config file not found.
+First pass: collect useful nodes...
+
+Processing Node spRoadWidth with parent Scene Root
+Mesh Node "spRoadWidth" with parent "Scene Root" added to entry list
+Processing Node bounds with parent Scene Root
+Bounding box found
+Processing Node Plane01 with parent Scene Root
+Mesh Node "Plane01" with parent "Scene Root" added to entry list
+Processing Node spRoad with parent Scene Root
+Mesh Node "spRoad" with parent "Scene Root" added to entry list
+Processing Node base02 with parent Scene Root
+Found subtree starting at Node "base02"
+Processing Node start02 with parent base02
+Processing Node road1 with parent start02
+Processing Node detail1 with parent base02
+Processing Node spBarrierOut with parent Scene Root
+Mesh Node "spBarrierOut" with parent "Scene Root" added to entry list
+Processing Node spArmco with parent Scene Root
+Mesh Node "spArmco" with parent "Scene Root" added to entry list
+Processing Node spBarrierIn with parent Scene Root
+Mesh Node "spBarrierIn" with parent "Scene Root" added to entry list
+Processing Node armco02 with parent Scene Root
+Mesh Node "armco02" with parent "Scene Root" added to entry list
+Processing Node armco1 with parent Scene Root
+Mesh Node "armco1" with parent "Scene Root" added to entry list
+
+Second pass:  put shape structure together...
+
+Adding detail named "detail1" of size 1 to subtree "base02".
+Adding node "base02" with parent "base02" to subtree rooted on max-node "base02".
+Adding node "start02" with parent "base02" to subtree rooted on max-node "base02".
+Adding node "road1" with parent "start02" to subtree rooted on max-node "base02".
+Attaching object to node.
+Adding object named "road".
+Adding mesh of size 1 to object "road".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding object named "spRoadWidth".
+Adding mesh of size -1 to object "spRoadWidth".
+Adding object named "Plane".
+Adding mesh of size 1 to object "Plane".
+Adding object named "spRoad".
+Adding mesh of size -1 to object "spRoad".
+Adding object named "spBarrierOut".
+Adding mesh of size -1 to object "spBarrierOut".
+Adding object named "spArmco".
+Adding mesh of size -1 to object "spArmco".
+Adding object named "spBarrierIn".
+Adding mesh of size -1 to object "spBarrierIn".
+Adding object named "armco".
+Adding mesh of size 2 to object "armco".
+Adding mesh of size 1 to object "armco".
+
+Third pass:  Collapsing unneeded nodes...
+
+
+Add default object states...
+
+Adding object state to 1 detail level(s) of mesh "road".
+Adding frame.
+Object is visible.
+1302 faces, 3906 verts, 3906 tverts before cropping textures and joining verts
+---------------------------------
+
+Add default node states...
+
+Adding node rotation at time 0 for node "base02".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "base02".
+  translation:     x=-87.58266, y=-3.20656, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "start02".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "start02".
+  translation:     x=0.00000, y=0.00000, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "road1".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "road1".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+
+Adding 0 sequences...
+
+
+Optimizing meshes...
+
+Optimizing mesh "road" detail level 1.
+3906 verts before joining verts
+2604 verts after joining verts
+1302 faces before stripping
+Using quick and dirty stripping method.
+651 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 2604 cache misses
+
+Shape Hierarchy:
+
+   Details:
+      detail1, Subtree 0, objectDetail 0, size 1
+
+   Subtrees:
+      Subtree 0
+         base02
+            start02
+               road1 --> Object road with following details:  1
+
+   Sequences:
+
+   Material list:
+   material #0: "ROADB".
+   material #1: "sat_05".
+   material #2: "sat_06".
+   material #3: "sat_07".
+   material #4: "sat_08".
+   material #5: "sat_01".
+   material #6: "sat_02".
+   material #7: "sat_03".
+   material #8: "sat_04".
+   material #9: "ARMCO".
+   material #10: "ARMCO_BACK".
+
+Checking for duplicate nodes...
+
+Checking for duplicate objects...

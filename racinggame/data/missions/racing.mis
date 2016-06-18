@@ -1,0 +1,816 @@
+//--- OBJECT WRITE BEGIN ---
+new SimGroup(MissionGroup) {
+
+   new TSStatic(road) {
+      position = "263.075 -275.725 -4.99732";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/roads/road1.dts";
+         locked = "true";
+   };
+   new SimGroup(trees) {
+
+      new TSStatic(tree2) {
+         position = "283.405 139.805 -0.58106";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "39.4087 133.916 -0.69354";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "66.5702 192.599 -0.0780697";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "62.0339 122.292 -0.51333";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "88.8446 123.598 -0.29785";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "169.73 158.619 -0.231994";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "143.964 165.759 -1.05177";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "196.892 190.502 0.58348";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "205.17 99.394 -0.54188";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "219.166 121.501 -1.4363";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "1056.14 12.7522 -0.748748";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "395.024 -123.23 -0.33361";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree2) {
+         position = "326.463 -71.926 -0.87837";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "387.588 -98.512 -1.3293";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "-709.311 263.12 -1.2952";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-758.057 216.796 -1.5107";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-660.277 210.268 -1.69087";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-619.921 166.622 -2.18098";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-685.392 162.287 -1.4008";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-472.466 207.037 -1.37086";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-497.582 159.056 -1.08079";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-432.111 163.391 -1.86097";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-570.247 213.565 -1.19069";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "-521.5 259.889 -0.975187";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-282.816 223.397 26.3043";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-332.734 213.526 22.4673";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-322.428 324.547 -1.2957";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-258.61 278.243 24.536";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-311.762 470.506 -0.1096";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-287.556 525.352 -0.877901";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-351.374 555.455 -0.7096";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-361.68 460.635 -0.746609";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-461.057 410.5 -1.47487";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-501.412 454.146 -0.984765";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-526.528 406.165 -0.694693";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "-550.446 506.998 -0.589091";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-599.193 460.674 -0.804595";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-648.867 413.731 -1.79488";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-714.338 409.396 -1.0147";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-689.223 457.377 -1.30477";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-787.003 463.905 -1.1246";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "-738.257 510.229 -0.909104";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "217.868 464.564 -0.7066";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "242.074 519.41 -1.0749";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "178.256 549.514 -0.50655";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "167.95 454.693 0.456444";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "68.5732 404.558 -1.87182";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "28.2182 448.204 -1.38171";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "3.10224 400.223 -1.09164";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "-20.8158 501.056 -0.986039";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-69.5627 454.732 -1.20154";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-119.237 407.789 -2.19183";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-184.708 403.454 -1.41165";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-159.593 451.435 -1.70172";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "-257.373 457.963 -1.52155";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "-208.627 504.287 -1.30605";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "229.019 -123.031 -2.03708";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "376.474 -82.6158 -1.22696";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "327.44 -29.7638 -0.831289";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "430.229 -126.262 -1.71707";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "516.206 -76.1268 -0.988807";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "566.124 -66.2558 -0.351798";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "526.512 18.6932 -0.951797";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "590.33 -11.4098 -1.1201";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "620.513 -78.7988 -1.76375";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "693.178 -133.308 -1.65385";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "669.259 -32.4748 -1.54825";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "718.293 -85.3268 -1.94392";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "758.649 -128.973 -2.43403";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "808.323 -82.0298 -1.44374";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "880.988 -136.539 -1.33384";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "906.104 -88.5578 -1.62391";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "857.07 -35.7058 -1.22824";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+      new TSStatic(tree1) {
+         position = "946.459 -132.204 -2.11402";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "1045.84 -82.0688 0.214245";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "1095.75 -72.1978 -0.948798";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree1) {
+         position = "1119.96 -17.3518 -1.3171";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+   };
+   new ScriptObject(MissionInfo) {
+         type = "racing";
+         name = "Challenge the Stig";
+         desc0 = "Drive a Ferrari GTO around the famous Monza circuit";
+   };
+   new fxSunLight(sunflare1) {
+      position = "98.5277 -289.053 188.13";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      Enable = "1";
+      LocalFlareBitmap = "common/lighting/corona";
+      RemoteFlareBitmap = "common/lighting/corona";
+      SunAzimuth = "224";
+      SunElevation = "10";
+      LockToRealSun = "1";
+      FlareTP = "1";
+      Colour = "1 0.9 0.5 1";
+      Brightness = "1";
+      FlareSize = "1.4";
+      FadeTime = "10";
+      BlendMode = "0";
+      AnimColour = "0";
+      AnimBrightness = "1";
+      AnimRotation = "1";
+      AnimSize = "1";
+      AnimAzimuth = "0";
+      AnimElevation = "0";
+      LerpColour = "1";
+      LerpBrightness = "1";
+      LerpRotation = "1";
+      LerpSize = "1";
+      LerpAzimuth = "1";
+      LerpElevation = "1";
+      LinkFlareSize = "1";
+      SingleColourKeys = "1";
+      MinColour = "0 0 0 1";
+      MaxColour = "1 1 1 1";
+      MinBrightness = "0.9";
+      MaxBrightness = "1";
+      MinRotation = "0";
+      MaxRotation = "359";
+      MinSize = "1.3";
+      MaxSize = "1.5";
+      MinAzimuth = "0";
+      MaxAzimuth = "359";
+      MinElevation = "-30";
+      MaxElevation = "210";
+      RedKeys = "AZA";
+      GreenKeys = "AZA";
+      BlueKeys = "AZA";
+      BrightnessKeys = "JAZJTAJ";
+      RotationKeys = "ZA";
+      SizeKeys = "ATAZA";
+      AzimuthKeys = "AZ";
+      ElevationKeys = "AZ";
+      ColourTime = "200";
+      BrightnessTime = "200";
+      RotationTime = "200";
+      SizeTime = "200";
+      AzimuthTime = "5";
+      ElevationTime = "5";
+   };
+   new MissionArea(MissionArea) {
+      Area = "-1072 -1664 3008 3008";
+      flightCeiling = "3000";
+      flightCeilingRange = "200";
+         locked = "true";
+   };
+   new Sky(Sky) {
+      position = "336 136 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      materialList = "~/data/skies/sky_day.dml";
+      cloudHeightPer[0] = "0";
+      cloudHeightPer[1] = "0.25";
+      cloudHeightPer[2] = "0.199973";
+      cloudSpeed1 = "0.0001";
+      cloudSpeed2 = "0.0002";
+      cloudSpeed3 = "0.0003";
+      visibleDistance = "1000";
+      fogDistance = "2000";
+      fogColor = "0.82 0.828 0.844 1";
+      fogStorm1 = "1";
+      fogStorm2 = "0";
+      fogStorm3 = "0";
+      fogVolume1 = "1200 0 20";
+      fogVolume2 = "0 0 0";
+      fogVolume3 = "0 0 0";
+      fogVolumeColor1 = "128 128 128 -2.22768e+038";
+      fogVolumeColor2 = "128 128 128 0";
+      fogVolumeColor3 = "128 128 128 -1.70699e+038";
+      windVelocity = "1 1 0";
+      windEffectPrecipitation = "1";
+      SkySolidColor = "0.547 0.641 0.789 0";
+      useSkyTextures = "1";
+      renderBottomTexture = "0";
+      noRenderBans = "0";
+         locked = "true";
+   };
+   new Sun() {
+      azimuth = "245";
+      elevation = "45";
+      color = "1 1 0.7 1";
+      ambient = "0.3 0.3 0.4 1";
+         scale = "1 1 1";
+         locked = "true";
+         position = "0 0 0";
+         direction = "0.56146 0.56146 -0.607886";
+         rotation = "1 0 0 0";
+   };
+   new TerrainBlock(Terrain) {
+      rotation = "1 0 0 0";
+      scale = "2 2 2";
+      detailTexture = "~/data/terrains/GRASSA.png";
+      terrainFile = "./racing.ter";
+      bumpTexture = "~/data/terrains/GRASSA.png";
+      squareSize = "16";
+      emptySquares = "99744 443522 443778 444034";
+      bumpScale = "0.01";
+      bumpOffset = "0.01";
+      zeroBumpScale = "1000";
+      tile = "1";
+         locked = "true";
+         position = "-1024 -1024 0";
+   };
+   new SimGroup(PlayerDropPoints) {
+
+      new SpawnSphere() {
+         position = "-111.733 331.111 1.1812";
+         rotation = "0 0 1 90";
+         scale = "1 1 1";
+         dataBlock = "SpawnSphereMarker";
+         radius = "100";
+         sphereWeight = "100";
+         indoorWeight = "100";
+         outdoorWeight = "100";
+      };
+      new SpawnSphere() {
+         position = "-105.023 336.985 1.34546";
+         rotation = "0 0 1 90";
+         scale = "1 1 1";
+         dataBlock = "SpawnSphereMarker";
+         radius = "100";
+         sphereWeight = "100";
+         indoorWeight = "100";
+         outdoorWeight = "100";
+      };
+   };
+   new SimGroup(checkpoints) {
+
+      new Trigger(cheatpoint) {
+         position = "36.8737 93.3455 -1.30304";
+         rotation = "1 0 0 0";
+         scale = "125 48 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            isCheat = "1";
+      };
+      new Trigger(cheatpoint) {
+         position = "64.9701 53.3738 -1.30304";
+         rotation = "1 0 0 0";
+         scale = "73 28 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            isCheat = "1";
+      };
+      new Trigger(cheatpoint) {
+         position = "1027.52 -362.607 -1.30303";
+         rotation = "1 0 0 0";
+         scale = "33 28 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            isCheat = "1";
+      };
+      new Trigger(cheatpoint) {
+         position = "362.929 338.922 -0.103034";
+         rotation = "1 0 0 0";
+         scale = "1 28 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            isCheat = "1";
+      };
+      new Trigger(checkpoint9) {
+         position = "-119.205 365.383 -1.30304";
+         rotation = "1 0 0 0";
+         scale = "1 50 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            isLast = "1";
+            checkpoint = "9";
+      };
+      new Trigger(checkpoint7) {
+         position = "-319.755 94.126 -1.30304";
+         rotation = "1 0 0 0";
+         scale = "1 50 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            checkpoint = "7";
+      };
+      new Trigger(checkpoint8) {
+         position = "-839.644 350.616 -1.30304";
+         rotation = "1 0 0 0";
+         scale = "1 40 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            checkpoint = "8";
+      };
+      new Trigger(checkpoint6) {
+         position = "198.869 16.6709 -1.30302";
+         rotation = "0 0 1 45";
+         scale = "1 40 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            checkpoint = "6";
+      };
+      new Trigger(checkpoint5) {
+         position = "543.92 -322.302 -1.30303";
+         rotation = "0 0 1 90";
+         scale = "1 50 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            checkpoint = "5";
+      };
+      new Trigger(checkpoint4) {
+         position = "979.22 -755.802 -1.30303";
+         rotation = "1 0 0 0";
+         scale = "1 40 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            checkpoint = "4";
+      };
+      new Trigger(checkpoint2) {
+         position = "505.343 349.636 -1.30304";
+         rotation = "1 0 0 0";
+         scale = "1 35 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            checkpoint = "2";
+      };
+      new Trigger(checkpoint3) {
+         position = "1034.6 -292.123 -0.295225";
+         rotation = "0 0 1 90";
+         scale = "1 40 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            checkpoint = "3";
+      };
+      new Trigger(checkpoint1) {
+         position = "221.965 342.562 -0.49523";
+         rotation = "0 0 1 90";
+         scale = "15 1 7";
+         dataBlock = "CheckPointTrigger";
+         polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 0.0000000 -1.0000000 0.0000000 0.0000000 0.0000000 1.0000000";
+            checkpoint = "1";
+      };
+   };
+   new SimGroup(environment) {
+
+      new TSStatic(armco2) {
+         position = "87.8413 -222.273 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         shapeName = "~/data/shapes/armco/armco2.dts";
+      };
+      new TSStatic(armco) {
+         position = "87.8413 -222.273 0";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         shapeName = "~/data/shapes/armco/armco.dts";
+            locked = "true";
+      };
+      new TSStatic(road) {
+         position = "87.2171 -217.594 0.099993";
+         rotation = "1 0 0 0";
+         scale = "1 1 1";
+         shapeName = "~/data/shapes/roads/road1.dts";
+            locked = "true";
+      };
+      new TSStatic(tree1) {
+         position = "3.96901 111.341 -1.18365";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree3.dts";
+      };
+      new TSStatic(tree2) {
+         position = "31.1305 118.224 -0.968175";
+         rotation = "1 0 0 0";
+         scale = "0.8 0.8 0.6";
+         shapeName = "~/data/shapes/trees/tree2.dts";
+      };
+   };
+   new TSStatic(bridge2) {
+      position = "-121.103 340.109 -0.403036";
+      rotation = "0 0 -1 20";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/bridge/brdga2.dts";
+   };
+   new TSStatic(bridge1) {
+      position = "211.969 -13.9084 -0.203038";
+      rotation = "0 0 1 30";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/bridge/brdga2.dts";
+   };
+   new TSStatic(bridge1) {
+      position = "986.524 -215.61 -0.40304";
+      rotation = "0 0 1 70";
+      scale = "1.35 1.35 1.2";
+      shapeName = "~/data/shapes/bridge/brdga2.dts";
+   };
+   new TSStatic() {
+      position = "-122.015 356.068 0.216959";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/gto/ferrari_wheel.dts";
+   };
+   new TSStatic() {
+      position = "-127.843 355.456 -0.232551";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/gto/ferrari_gto.dts";
+   };
+   new TSStatic() {
+      position = "-122.052 348.955 -0.150515";
+      rotation = "0.0499376 0 0.998752 63.2279";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/gto/ferrari_gto.dts";
+   };
+   new TSStatic() {
+      position = "-122.127 355.225 0.2374";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/gto/ferrari_wheel.dts";
+   };
+   new TSStatic() {
+      position = "-122.313 351.285 -0.209495";
+      rotation = "0.0499376 0 0.998752 63.2279";
+      scale = "1 1 1";
+      shapeName = "~/data/shapes/gto/ferrari_gto.dts";
+   };
+};
+//--- OBJECT WRITE END ---

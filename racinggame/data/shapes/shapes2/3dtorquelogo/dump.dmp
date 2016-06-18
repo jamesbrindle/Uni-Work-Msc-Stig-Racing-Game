@@ -1,0 +1,91 @@
+Max file H:\Vista\Autodesk\3dsMax8\scenes\portlandbridge.max exported to f:\alex\documents\masters degree\games programming\torque\tutorial.base\data\shapes\3dtorquelogo\brdga2.dts
+Exported on Fri Oct 16 12:55:32 2009
+
+
+Config file not found.
+First pass: collect useful nodes...
+
+Processing Node bounds with parent Scene Root
+Bounding box found
+Processing Node base01 with parent Scene Root
+Found subtree starting at Node "base01"
+Processing Node start01 with parent base01
+Processing Node BRDGA1 with parent start01
+Processing Node detail1 with parent base01
+
+Second pass:  put shape structure together...
+
+Adding detail named "detail1" of size 1 to subtree "base01".
+Adding node "base01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "start01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "BRDGA1" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "BRDGA".
+Adding mesh of size 1 to object "BRDGA".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=0.00000, y=0.00000, z=0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=0.00000, y=-0.00000, z=-0.00000, w=1.00000
+
+Third pass:  Collapsing unneeded nodes...
+
+Removing node "base01"
+Removing node "start01"
+
+Add default object states...
+
+Adding object state to 1 detail level(s) of mesh "BRDGA".
+Adding frame.
+Object is visible.
+592 faces, 1395 verts, 1395 tverts before cropping textures and joining verts
+---------------------------------
+
+Add default node states...
+
+Adding node rotation at time 0 for node "BRDGA1".
+  rotation:     x=-0.58535, y=-0.39668, z=-0.39668, w=0.58535
+---------------------------------
+Adding node translation at time 0 for node "BRDGA1".
+  translation:     x=7.01889, y=-2.18051, z=0.00000
+---------------------------------
+
+Adding 0 sequences...
+
+
+Optimizing meshes...
+
+Optimizing mesh "BRDGA" detail level 1.
+1395 verts before joining verts
+857 verts after joining verts
+592 faces before stripping
+Using quick and dirty stripping method.
+298 strips with average length 4.02 (range 3 to 19) and 11 reversals
+Results in 861 cache misses
+
+Shape Hierarchy:
+
+   Details:
+      detail1, Subtree 0, objectDetail 0, size 1
+
+   Subtrees:
+      Subtree 0
+         BRDGA1 --> Object BRDGA with following details:  1
+
+   Sequences:
+
+   Material list:
+   material #0: "BRDGA1".
+   material #1: "BRDGA2_B" not tiled.  Used as a bump map.
+   material #2: "BRDGA2".
+   material #3: "METALPOLE_B" not tiled.  Used as a bump map.
+   material #4: "METALPOLE".
+   material #5: "WOODA".
+   material #6: "GSTANDSTEPS".
+   material #7: "BRDGA3_B" not tiled.  Used as a bump map.
+   material #8: "BRDGA3".
+   material #9: "POLEB".
+
+Checking for duplicate nodes...
+
+Checking for duplicate objects...

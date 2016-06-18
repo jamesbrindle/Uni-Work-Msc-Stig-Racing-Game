@@ -1,0 +1,197 @@
+//-------------------------- 6/18/2016 -- 21:25:02 -----
+Processor Init:
+   Intel Pentium III, ~1.90 Ghz
+     (timed at roughly 1.90 Ghz)
+   FPU detected
+   MMX detected
+   SSE detected
+ 
+Math Init:
+   Installing Standard C extensions
+   Installing Assembly extensions
+   Installing FPU extensions
+   Installing MMX extensions
+   Installing SSE extensions
+ 
+Input Init:
+   keyboard0 input device created.
+   mouse0 input device created.
+   DirectInput enabled.
+
+Initializing chunk mappings...
+   o 'TEXT' maps to TextChunk
+   o 'SCHK' maps to UnknownChunk
+   o 'SCHK' maps to SimChunk
+--------- Loading MODS ---------
+Loading compiled script racinggame/main.cs.
+Loading compiled script common/main.cs.
+Missing file: common/defaults.cs!
+Loading compiled script racinggame/client/defaults.cs.
+Loading compiled script racinggame/server/defaults.cs.
+exec: Warning! Found a DSO from the future! (racinggame/client/prefs.cs.dso)
+Compiling racinggame/client/prefs.cs...
+Loading compiled script racinggame/client/prefs.cs.
+exec: Warning! Found a DSO from the future! (racinggame/server/prefs.cs.dso)
+Compiling racinggame/server/prefs.cs...
+Loading compiled script racinggame/server/prefs.cs.
+Loading compiled script creator/main.cs.
+Loading compiled script common/main.cs.
+Missing file: common/defaults.cs!
+
+--------- Parsing Arguments ---------
+
+--------- Initializing MOD: Common ---------
+Loading compiled script common/client/canvas.cs.
+Loading compiled script common/client/audio.cs.
+
+--------- Initializing MOD: FPS Starter Kit ---------
+Loading compiled script racinggame/client/init.cs.
+Loading compiled script racinggame/server/init.cs.
+Loading compiled script racinggame/data/init.cs.
+Missing file: racinggame/data/terrains/grassland/propertyMap.cs!
+Missing file: racinggame/data/terrains/scorched/propertyMap.cs!
+
+--------- Initializing MOD: FPS Starter Kit: Server ---------
+Loading compiled script common/server/audio.cs.
+Loading compiled script common/server/server.cs.
+Loading compiled script common/server/message.cs.
+Loading compiled script common/server/commands.cs.
+Loading compiled script common/server/missionInfo.cs.
+Loading compiled script common/server/missionLoad.cs.
+Loading compiled script common/server/missionDownload.cs.
+Loading compiled script common/server/clientConnection.cs.
+Loading compiled script common/server/kickban.cs.
+Loading compiled script common/server/game.cs.
+Loading compiled script racinggame/server/scripts/commands.cs.
+Loading compiled script racinggame/server/scripts/centerPrint.cs.
+Loading compiled script racinggame/server/scripts/game.cs.
+
+--------- Initializing MOD: FPS Starter Kit: Client ---------
+Loading compiled script racinggame/client/ui/customProfiles.cs.
+Loading compiled script common/client/message.cs.
+Loading compiled script common/client/mission.cs.
+Loading compiled script common/client/missionDownload.cs.
+Loading compiled script common/client/actionMap.cs.
+Video Init:
+   Accelerated OpenGL display device detected.
+   Accelerated D3D device detected.
+   Voodoo 2 display device not detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+OpenGLDevice::setScreenMode -- can't switch to resolution larger than desktop in windowed mode!
+Setting screen mode to 1366x768x32 (w)...
+Creating a new window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: Intel
+  Renderer: Intel(R) HD Graphics
+  Version: 4.0.0 - Build 9.17.10.2867
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 8)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  3DFX_texture_compression_FXT1
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16)
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  WGL_EXT_swap_control
+
+Loading compiled script common/ui/defaultProfiles.cs.
+Loading compiled script common/ui/ConsoleDlg.gui.
+Loading compiled script common/ui/LoadFileDlg.gui.
+Could not locate texture: common/ui/bs
+Loading compiled script common/ui/ColorPickerDlg.gui.
+Loading compiled script common/ui/SaveFileDlg.gui.
+Could not locate texture: common/ui/bs
+Loading compiled script common/ui/MessageBoxOkDlg.gui.
+Loading compiled script common/ui/MessageBoxYesNoDlg.gui.
+Loading compiled script common/ui/MessageBoxOKCancelDlg.gui.
+Loading compiled script common/ui/MessagePopupDlg.gui.
+Loading compiled script common/ui/HelpDlg.gui.
+Loading compiled script common/ui/RecordingsDlg.gui.
+Loading compiled script common/ui/NetGraphGui.gui.
+Loading compiled script common/client/metrics.cs.
+Loading compiled script common/ui/FrameOverlayGui.gui.
+Loading compiled script common/client/messageBox.cs.
+Loading compiled script common/client/screenshot.cs.
+Loading compiled script common/client/cursor.cs.
+Loading compiled script common/client/help.cs.
+Loading compiled script common/client/recordings.cs.
+
+OpenAL Driver Init:
+OpenAL
+ Missing OpenAL Extension function 'EAXSet'
+ Missing OpenAL Extension function 'EAXGet'
+   Vendor: Creative Labs Inc.
+   Version: 1.1
+   Renderer: Software
+   Extensions: EAX EAX2.0 EAX3.0 EAX4.0 EAX5.0 EAX3.0EMULATED EAX4.0EMULATED AL_EXT_OFFSET AL_EXT_LINEAR_DISTANCE AL_EXT_EXPONENT_DISTANCE
+
+Loading compiled script racinggame/client/scripts/audioProfiles.cs.
+Loading compiled script racinggame/client/ui/defaultGameProfiles.cs.
+Loading compiled script racinggame/client/ui/PlayGui.gui.
+Loading compiled script racinggame/client/ui/ChatHud.gui.
+Loading compiled script racinggame/client/ui/playerList.gui.
+Loading compiled script racinggame/client/ui/mainMenuGui.gui.
+Missing file: racinggame/client/ui/QuitGui.gui!
+Loading compiled script racinggame/client/ui/aboutDlg.gui.
+Loading compiled script racinggame/client/ui/startMissionGui.gui.
+Loading compiled script racinggame/client/ui/joinServerGui.gui.
+Loading compiled script racinggame/client/ui/loadingGui.gui.
+Loading compiled script racinggame/client/ui/endGameGui.gui.
+Loading compiled script racinggame/client/ui/optionsDlg.gui.
+Loading compiled script racinggame/client/ui/remapDlg.gui.
+Loading compiled script racinggame/client/ui/StartupGui.gui.
+Loading compiled script racinggame/client/scripts/client.cs.
+Loading compiled script racinggame/client/scripts/game.cs.
+Loading compiled script racinggame/client/scripts/missionDownload.cs.
+Loading compiled script racinggame/client/scripts/serverConnection.cs.
+Loading compiled script racinggame/client/scripts/playerList.cs.
+Loading compiled script racinggame/client/scripts/loadingGui.cs.
+Loading compiled script racinggame/client/scripts/optionsDlg.cs.
+Loading compiled script racinggame/client/scripts/chatHud.cs.
+Loading compiled script racinggame/client/scripts/messageHud.cs.
+Loading compiled script racinggame/client/scripts/playGui.cs.
+Loading compiled script racinggame/client/scripts/centerPrint.cs.
+Loading compiled script racinggame/client/scripts/default.bind.cs.
+exec: Warning! Found a DSO from the future! (racinggame/client/config.cs.dso)
+Compiling racinggame/client/config.cs...
+Loading compiled script racinggame/client/config.cs.
+Binding server port to default IP
+UDP initialized on port 0
+
+--------- Initializing: Torque Creator ---------
+Loading compiled script creator/editor/editor.cs.
+Loading compiled script creator/editor/particleEditor.cs.
+Loading compiled script creator/scripts/scriptDoc.cs.
+Loading compiled script creator/ui/creatorProfiles.cs.
+Loading compiled script creator/ui/InspectDlg.gui.
+Loading compiled script creator/ui/GuiEditorGui.gui.
+Engine initialized...
+*** Load Main Menu
+Unable to locate audio profile 'guiTheme'
+   keyboard0 input device created.
+   mouse0 input device created.
+Exporting client prefs
+Exporting client config
+Exporting server prefs
+Exporting client prefs
+Exporting server prefs
+Shutting down the OpenGL display device...
+Making the GL rendering context not current...
+Deleting the GL rendering context...
+Releasing the device context...
+Destroying the window...

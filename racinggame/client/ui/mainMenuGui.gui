@@ -1,0 +1,96 @@
+//--- OBJECT WRITE BEGIN ---
+
+new GuiChunkedBitmapCtrl(MainMenuGui) {
+   Profile = "GuiContentProfile";
+   HorizSizing = "width";
+   VertSizing = "height";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 8";
+   Visible = "1";
+   bitmap = "./images/intros/background";
+   useVariable = "0";
+   tile = "0";
+      helpTag = "0";
+
+      
+   new GuiButtonCtrl() {
+      Profile = "GuiButtonProfile";
+      HorizSizing = "right";
+      VertSizing = "top";
+      position = "36 346";
+      Extent = "110 20";
+      MinExtent = "8 8";
+      Visible = "1";
+      Command = "quit();";
+      tooltip = "Quits the game";
+      text = "Quit!";
+      groupNum = "-1";
+      buttonType = "PushButton";
+         helpTag = "0";
+   };
+   new GuiButtonCtrl() {
+      Profile = "GuiButtonProfile";
+      HorizSizing = "right";
+      VertSizing = "top";
+      position = "36 237";
+      Extent = "110 20";
+      MinExtent = "8 8";
+      Visible = "1";
+      Command = "alxPlay(engineStart); Canvas.setContent(startMissionGui);";
+      tooltip = "Start a mission";
+      text = "Start Mission...";
+      groupNum = "-1";
+      buttonType = "PushButton";
+         helpTag = "0";
+   };
+   new GuiButtonCtrl() {
+      Profile = "GuiButtonProfile";
+      HorizSizing = "right";
+      VertSizing = "top";
+      position = "36 264";
+      Extent = "110 20";
+      MinExtent = "8 8";
+      Visible = "1";
+      Command = "alxPlay(engineStart); Canvas.setContent(JoinServerGui);";
+      tooltip = "Join a game on a network";
+      text = "Join Server...";
+      groupNum = "-1";
+      buttonType = "PushButton";
+         helpTag = "0";
+   };
+   new GuiButtonCtrl() {
+      Profile = "GuiButtonProfile";
+      HorizSizing = "right";
+      VertSizing = "top";
+      position = "36 291";
+      Extent = "110 20";
+      MinExtent = "8 8";
+      Visible = "1";
+      Command = "alxPlay(engineStart); Canvas.pushDialog(optionsDlg);";
+      tooltip = "Change game options";
+      text = "Options...";
+      groupNum = "-1";
+      buttonType = "PushButton";
+         helpTag = "0";
+   };
+   new GuiButtonCtrl() {
+      Profile = "GuiButtonProfile";
+      HorizSizing = "right";
+      VertSizing = "top";
+      position = "36 318";
+      Extent = "110 20";
+      MinExtent = "8 8";
+      Visible = "1";
+      Command = "alxPlay(engineStart); getHelp(\"0. About\");";
+      tooltip = "About the game";
+      text = "Info...";
+      groupNum = "-1";
+      buttonType = "PushButton";
+         helpTag = "0";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+

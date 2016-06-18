@@ -1,0 +1,441 @@
+Max file C:\Users\Alex\Documents\NetBeansProjects\GamesProgramming\racinggame\data\shapes\armco\armco2.max exported to c:\users\alex\documents\netbeansprojects\gamesprogramming\racinggame\data\shapes\armco\armco2.dts
+Exported on Thu Dec 03 19:29:39 2009
+
+
+Config file not found.
+First pass: collect useful nodes...
+
+Processing Node spRoadWidth with parent Scene Root
+Mesh Node "spRoadWidth" with parent "Scene Root" added to entry list
+Processing Node bounds with parent Scene Root
+Bounding box found
+Processing Node Plane01 with parent Scene Root
+Mesh Node "Plane01" with parent "Scene Root" added to entry list
+Processing Node spRoad with parent Scene Root
+Mesh Node "spRoad" with parent "Scene Root" added to entry list
+Processing Node spArmco with parent Scene Root
+Mesh Node "spArmco" with parent "Scene Root" added to entry list
+Processing Node spBarrierIn with parent Scene Root
+Mesh Node "spBarrierIn" with parent "Scene Root" added to entry list
+Processing Node road1 with parent Scene Root
+Mesh Node "road1" with parent "Scene Root" added to entry list
+Processing Node base01 with parent Scene Root
+Found subtree starting at Node "base01"
+Processing Node start01 with parent base01
+Processing Node armcob1 with parent start01
+Processing Node Col-1 with parent start01
+Processing Node Col-2 with parent start01
+Processing Node Col-3 with parent start01
+Processing Node Col-4 with parent start01
+Processing Node Col-6 with parent start01
+Processing Node Col-5 with parent start01
+Processing Node Col-7 with parent start01
+Processing Node Col-8 with parent start01
+Processing Node Col-9 with parent start01
+Processing Node Col-10 with parent start01
+Processing Node Col-11 with parent start01
+Processing Node detail1 with parent base01
+Processing Node Collision-1 with parent base01
+Processing Node Collision-2 with parent base01
+Processing Node Collision-3 with parent base01
+Processing Node Collision-4 with parent base01
+Processing Node Collision-5 with parent base01
+Processing Node Collision-6 with parent base01
+Processing Node Collision-7 with parent base01
+Processing Node Collision-8 with parent base01
+Processing Node Collision-9 with parent base01
+Processing Node Collision-10 with parent base01
+Processing Node Collision-11 with parent base01
+
+Second pass:  put shape structure together...
+
+Adding detail named "detail1" of size 1 to subtree "base01".
+Adding detail named "Collision-1" of size -1 to subtree "base01".
+Adding detail named "Collision-2" of size -2 to subtree "base01".
+Adding detail named "Collision-3" of size -3 to subtree "base01".
+Adding detail named "Collision-4" of size -4 to subtree "base01".
+Adding detail named "Collision-5" of size -5 to subtree "base01".
+Adding detail named "Collision-6" of size -6 to subtree "base01".
+Adding detail named "Collision-7" of size -7 to subtree "base01".
+Adding detail named "Collision-8" of size -8 to subtree "base01".
+Adding detail named "Collision-9" of size -9 to subtree "base01".
+Adding detail named "Collision-10" of size -10 to subtree "base01".
+Adding detail named "Collision-11" of size -11 to subtree "base01".
+Adding node "base01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "start01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "armcob1" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "armcob".
+Adding mesh of size 1 to object "armcob".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "Col-1" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "Col".
+Adding mesh of size -1 to object "Col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "Col-2" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size -2 to object "Col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "Col-3" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size -3 to object "Col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "Col-4" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size -4 to object "Col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "Col-6" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size -6 to object "Col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "Col-5" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size -5 to object "Col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "Col-7" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size -7 to object "Col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "Col-8" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size -8 to object "Col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "Col-9" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size -9 to object "Col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "Col-10" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size -10 to object "Col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "Col-11" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size -11 to object "Col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding object named "spRoadWidth".
+Adding mesh of size -1 to object "spRoadWidth".
+Adding object named "Plane".
+Adding mesh of size 1 to object "Plane".
+Adding object named "spRoad".
+Adding mesh of size -1 to object "spRoad".
+Adding object named "spArmco".
+Adding mesh of size -1 to object "spArmco".
+Adding object named "spBarrierIn".
+Adding mesh of size -1 to object "spBarrierIn".
+Adding object named "road".
+Adding mesh of size 1 to object "road".
+
+Third pass:  Collapsing unneeded nodes...
+
+
+Add default object states...
+
+Adding object state to 1 detail level(s) of mesh "armcob".
+Adding frame.
+Object is visible.
+2604 faces, 7812 verts, 7812 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 11 detail level(s) of mesh "Col".
+Adding frame.
+Object is visible.
+30 faces, 90 verts, 90 tverts before cropping textures and joining verts
+64 faces, 192 verts, 192 tverts before cropping textures and joining verts
+64 faces, 192 verts, 192 tverts before cropping textures and joining verts
+64 faces, 192 verts, 192 tverts before cropping textures and joining verts
+64 faces, 192 verts, 192 tverts before cropping textures and joining verts
+64 faces, 192 verts, 192 tverts before cropping textures and joining verts
+64 faces, 192 verts, 192 tverts before cropping textures and joining verts
+64 faces, 192 verts, 192 tverts before cropping textures and joining verts
+64 faces, 192 verts, 192 tverts before cropping textures and joining verts
+64 faces, 192 verts, 192 tverts before cropping textures and joining verts
+66 faces, 198 verts, 198 tverts before cropping textures and joining verts
+---------------------------------
+
+Add default node states...
+
+Adding node rotation at time 0 for node "base01".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "base01".
+  translation:     x=-87.58266, y=1.94963, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "start01".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "start01".
+  translation:     x=0.00000, y=0.00000, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "armcob1".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "armcob1".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Col-1".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "Col-1".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Col-2".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "Col-2".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Col-3".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "Col-3".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Col-4".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "Col-4".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Col-6".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "Col-6".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Col-5".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "Col-5".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Col-7".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "Col-7".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Col-8".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "Col-8".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Col-9".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "Col-9".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Col-10".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "Col-10".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Col-11".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "Col-11".
+  translation:     x=148.51178, y=542.74561, z=0.00000
+---------------------------------
+
+Adding 0 sequences...
+
+
+Optimizing meshes...
+
+Optimizing mesh "armcob" detail level 1.
+7812 verts before joining verts
+2604 verts after joining verts
+2604 faces before stripping
+Using quick and dirty stripping method.
+1302 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 5208 cache misses
+
+Optimizing mesh "Col" detail level -11.
+198 verts before joining verts
+132 verts after joining verts
+66 faces before stripping
+Using quick and dirty stripping method.
+33 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 132 cache misses
+
+Optimizing mesh "Col" detail level -10.
+192 verts before joining verts
+128 verts after joining verts
+64 faces before stripping
+Using quick and dirty stripping method.
+32 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 128 cache misses
+
+Optimizing mesh "Col" detail level -9.
+192 verts before joining verts
+128 verts after joining verts
+64 faces before stripping
+Using quick and dirty stripping method.
+32 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 128 cache misses
+
+Optimizing mesh "Col" detail level -8.
+192 verts before joining verts
+128 verts after joining verts
+64 faces before stripping
+Using quick and dirty stripping method.
+32 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 128 cache misses
+
+Optimizing mesh "Col" detail level -7.
+192 verts before joining verts
+128 verts after joining verts
+64 faces before stripping
+Using quick and dirty stripping method.
+32 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 128 cache misses
+
+Optimizing mesh "Col" detail level -6.
+192 verts before joining verts
+128 verts after joining verts
+64 faces before stripping
+Using quick and dirty stripping method.
+32 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 128 cache misses
+
+Optimizing mesh "Col" detail level -5.
+192 verts before joining verts
+128 verts after joining verts
+64 faces before stripping
+Using quick and dirty stripping method.
+32 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 128 cache misses
+
+Optimizing mesh "Col" detail level -4.
+192 verts before joining verts
+128 verts after joining verts
+64 faces before stripping
+Using quick and dirty stripping method.
+32 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 128 cache misses
+
+Optimizing mesh "Col" detail level -3.
+192 verts before joining verts
+128 verts after joining verts
+64 faces before stripping
+Using quick and dirty stripping method.
+32 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 128 cache misses
+
+Optimizing mesh "Col" detail level -2.
+192 verts before joining verts
+128 verts after joining verts
+64 faces before stripping
+Using quick and dirty stripping method.
+32 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 128 cache misses
+
+Optimizing mesh "Col" detail level -1.
+90 verts before joining verts
+60 verts after joining verts
+30 faces before stripping
+Using quick and dirty stripping method.
+15 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 60 cache misses
+
+Shape Hierarchy:
+
+   Details:
+      detail1, Subtree 0, objectDetail 0, size 1
+      Collision-1, Subtree 0, objectDetail 1, size -1
+      Collision-2, Subtree 0, objectDetail 2, size -2
+      Collision-3, Subtree 0, objectDetail 3, size -3
+      Collision-4, Subtree 0, objectDetail 4, size -4
+      Collision-5, Subtree 0, objectDetail 5, size -5
+      Collision-6, Subtree 0, objectDetail 6, size -6
+      Collision-7, Subtree 0, objectDetail 7, size -7
+      Collision-8, Subtree 0, objectDetail 8, size -8
+      Collision-9, Subtree 0, objectDetail 9, size -9
+      Collision-10, Subtree 0, objectDetail 10, size -10
+      Collision-11, Subtree 0, objectDetail 11, size -11
+
+   Subtrees:
+      Subtree 0
+         base01
+            start01
+               armcob1 --> Object armcob with following details:  1
+               Col-1
+               Col-2
+               Col-3
+               Col-4
+               Col-6
+               Col-5
+               Col-7
+               Col-8
+               Col-9
+               Col-10
+               Col-11 --> Object Col with following details:  -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11
+
+   Sequences:
+
+   Material list:
+   material #0: "ARMCO".
+   material #1: "ARMCO_BACK".
+   material #2: "sat_05".
+   material #3: "sat_06".
+   material #4: "sat_07".
+   material #5: "sat_08".
+   material #6: "sat_01".
+   material #7: "sat_02".
+   material #8: "sat_03".
+   material #9: "sat_04".
+   material #10: "ROADB".
+
+Checking for duplicate nodes...
+
+Checking for duplicate objects...

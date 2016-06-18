@@ -1,0 +1,232 @@
+//--- OBJECT WRITE BEGIN ---
+new GameTSCtrl(PlayGui) {
+   profile = "GuiContentProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+   cameraZRot = "0";
+   forceFOV = "0";
+   noCursor = "1";
+
+   new GuiMLTextCtrl(HeadsUpText) {
+      profile = "HeadsUpTextProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "0 0";
+      extent = "700 80";
+      minExtent = "8 2";
+
+      visible = "0";
+      text = "";
+      maxLength = "255";
+   };
+
+   new GuiBitmapCtrl(CenterPrintDlg) {
+      profile = "CenterPrintProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "45 230";
+      extent = "550 85";
+      minExtent = "8 8";
+      visible = "0";
+      bitmap = "./hudfill.png";
+      wrap = "0";
+
+      new GuiMLTextCtrl(CenterPrintText) {
+         profile = "CenterPrintTextProfile";
+         horizSizing = "center";
+         vertSizing = "center";
+         position = "0 0";
+         extent = "546 85";
+         minExtent = "8 8";
+         visible = "1";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+   };
+   new GuiBitmapCtrl(BottomPrintDlg) {
+      profile = "CenterPrintProfile";
+      horizSizing = "center";
+      vertSizing = "top";
+      position = "45 375";
+      extent = "550 85";
+      minExtent = "8 8";
+      visible = "0";
+      bitmap = "./hudfill.png";
+      wrap = "0";
+
+      new GuiMLTextCtrl(BottomPrintText) {
+         profile = "CenterPrintTextProfile";
+         horizSizing = "center";
+         vertSizing = "center";
+         position = "0 0";
+         extent = "546 85";
+         minExtent = "8 8";
+         visible = "1";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+   };
+   new GuiBitmapCtrl(LagIcon) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "572 3";
+      extent = "32 32";
+      minExtent = "8 8";
+      visible = "0";
+      bitmap = "./lagIcon.png";
+      wrap = "0";
+   };
+   new GuiShapeNameHud()  {
+      profile = "GuiDefaultProfile";
+      horizSizing = "width";
+      vertSizing = "height";
+      position = "2 -1";
+      extent = "653 485";
+      minExtent = "8 8";
+      visible = "1";
+      fillColor = "0.000000 0.000000 0.000000 0.250000";
+      frameColor = "0.000000 1.000000 0.000000 1.000000";
+      textColor = "0.000000 1.000000 0.000000 1.000000";
+      showFill = "0";
+      showFrame = "0";
+      verticalOffset = "0.2";
+      distanceFade = "0.1";
+         damageFrameColor = "1.000000 0.600000 0.000000 1.000000";
+         damageRect = "30 4";
+         helpTag = "0";
+         damageFillColor = "0.000000 1.000000 0.000000 1.000000";
+   };
+   new GuiSpeedometerHud() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "left";
+      vertSizing = "top";
+      position = "440 280";
+      extent = "200 200";
+      minExtent = "8 2";
+      visible = "1";
+      bitmap = "./images/headsUpDisplay/speedometer.png";
+      wrap = "0";
+      maxSpeed = "100";
+      minAngle = "215";
+      maxAngle = "0";
+      color = "1.000000 0.300000 0.300000 1.000000";
+      center = "130.000000 123.000000";
+      length = "0";
+      width = "0";
+      tail = "0";
+   };
+
+    new GuiSpeedometerHud(digitalSpeedHUD) {
+          Profile = "GuiDefaultProfile";
+          HorizSizing = "left";
+          VertSizing = "top";
+          position = "513 340";
+          Extent = "56 36";
+          MinExtent = "8 2";
+          Visible = "1";
+
+         new GuiBitmapCtrl(digit_1) {
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "2 2";
+            Extent = "16 32";
+            MinExtent = "8 2";
+            Visible = "1";
+            bitmap = "./images/speedHUD/0";
+            wrap = "0";
+
+       };
+         new GuiBitmapCtrl(digit_2) {
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "20 2";
+            Extent = "16 32";
+            MinExtent = "8 2";
+            Visible = "1";
+            bitmap = "./images/speedHUD/0";
+            wrap = "0";
+         };
+         new GuiBitmapCtrl(digit_3) {
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "38 2";
+            Extent = "16 32";
+            MinExtent = "8 2";
+            Visible = "1";
+            bitmap = "./images/speedHUD/0";
+            wrap = "0";
+         };
+      };
+
+   new GuiBitmapCtrl(headsUpDisplay) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "45 230";
+      extent = "550 85";
+      minExtent = "8 8";
+      visible = "0";
+      bitmap = "./images/headsUpDisplay/checkpointPassed";
+      wrap = "0";
+
+};
+
+   new GuiBitmapCtrl(counter) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "130 110";
+      extent = "220 85";
+      minExtent = "8 2";
+      visible = "0";
+      bitmap = "./images/countdown/go";
+      wrap = "0";
+   };
+   new GuiTextCtrl(LapCounter) {
+      profile = "GuiBigTextProfile";
+      horizSizing = "left";
+      vertSizing = "bottom";
+      position = "450 5";
+      extent = "170 39";
+      minExtent = "8 2";
+
+      visible = "1";
+      text = "Laps: 0";
+      maxLength = "255";
+   };
+
+   new GuiTextCtrl(timer) {
+      profile = "GuiTimerTextProfile";
+      horizSizing = "left";
+      vertSizing = "bottom";
+      position = "452 40";
+      extent = "170 39";
+      minExtent = "8 2";
+      visible = "1";
+      text = "Time: 0:0:0";
+      maxLength = "255";
+   };
+
+   new GuiTextCtrl(bestTime) {
+      profile = "GuiBestTimerTextProfile";
+      horizSizing = "left";
+      vertSizing = "bottom";
+      position = "452 65";
+      extent = "170 39";
+      minExtent = "8 2";
+      visible = "1";
+      text = "Best: 2:40:7";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

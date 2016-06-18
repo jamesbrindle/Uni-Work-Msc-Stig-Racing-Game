@@ -1,0 +1,595 @@
+Max file C:\Users\Alex\Documents\NetBeansProjects\GamesProgramming\racinggame\data\shapes\gto\gto_torque02.max exported to c:\users\alex\documents\netbeansprojects\gamesprogramming\racinggame\data\shapes\gto\ferrari_gto.dts
+Exported on Sun Nov 29 00:08:37 2009
+
+
+Config file not found.
+First pass: collect useful nodes...
+
+Processing Node base01 with parent Scene Root
+Found subtree starting at Node "base01"
+Processing Node start01 with parent base01
+Processing Node gto1 with parent start01
+Processing Node SORT::glass with parent gto1
+Processing Node eye with parent gto1
+Processing Node cam with parent gto1
+Processing Node col-1 with parent gto1
+Processing Node hub0 with parent gto1
+Processing Node wheel04 with parent hub0
+Processing Node hub1 with parent gto1
+Processing Node wheel05 with parent hub1
+Processing Node hub2 with parent gto1
+Processing Node wheel02 with parent hub2
+Processing Node hub3 with parent gto1
+Processing Node wheel03 with parent hub3
+Processing Node shocktargetlrt with parent gto1
+Processing Node shocktarget01 with parent gto1
+Processing Node shocktargetrrt with parent gto1
+Processing Node shocktargetrrb with parent gto1
+Processing Node shocktargetlrb with parent gto1
+Processing Node shocktarget with parent gto1
+Processing Node cockpit with parent gto1
+Processing Node GTO_carbody_max with parent gto1
+Processing Node detail1 with parent base01
+Processing Node collision-1 with parent base01
+Processing Node detail25 with parent base01
+Processing Node detail50 with parent base01
+Processing Node detail100 with parent base01
+Processing Node bounds with parent Scene Root
+Bounding box found
+Processing Node hud with parent Scene Root
+Mesh Node "hud" with parent "Scene Root" added to entry list
+Processing Node inside_fromout with parent Scene Root
+Mesh Node "inside_fromout" with parent "Scene Root" added to entry list
+Processing Node GTO_carbody_high with parent Scene Root
+Mesh Node "GTO_carbody_high" with parent "Scene Root" added to entry list
+Processing Node GTO_carbody_low with parent Scene Root
+Mesh Node "GTO_carbody_low" with parent "Scene Root" added to entry list
+Processing Node GTO_carbody_med with parent Scene Root
+Mesh Node "GTO_carbody_med" with parent "Scene Root" added to entry list
+
+Second pass:  put shape structure together...
+
+Adding detail named "detail1" of size 1 to subtree "base01".
+Adding detail named "collision-1" of size -1 to subtree "base01".
+Adding detail named "detail25" of size 25 to subtree "base01".
+Adding detail named "detail50" of size 50 to subtree "base01".
+Adding detail named "detail100" of size 100 to subtree "base01".
+Adding node "base01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "start01" with parent "base01" to subtree rooted on max-node "base01".
+Adding node "gto1" with parent "start01" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "gto".
+Adding mesh of size 100 to object "gto".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 50 to object "gto".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 25 to object "gto".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 1 to object "gto".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "SORT::glass" with parent "gto1" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "glass".
+Adding mesh of size 100 to object "glass".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 50 to object "glass".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 25 to object "glass".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 1 to object "glass".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "eye" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "cam" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "col-1" with parent "gto1" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "col".
+Adding mesh of size -1 to object "col".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "hub0" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "wheel04" with parent "hub0" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "wheel".
+Adding mesh of size 4 to object "wheel".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "hub1" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "wheel05" with parent "hub1" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size 5 to object "wheel".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "hub2" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "wheel02" with parent "hub2" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size 2 to object "wheel".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "hub3" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "wheel03" with parent "hub3" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding mesh of size 3 to object "wheel".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "shocktargetlrt" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "shocktarget01" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "shocktargetrrt" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "shocktargetrrb" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "shocktargetlrb" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "shocktarget" with parent "gto1" to subtree rooted on max-node "base01".
+Adding node "cockpit" with parent "gto1" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "cockpit".
+Adding mesh of size 1 to object "cockpit".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.04375, y=-0.18456, z=-0.53552
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 25 to object "cockpit".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.04375, y=-0.18456, z=-0.53552
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 50 to object "cockpit".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.04375, y=-0.18456, z=-0.53552
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 100 to object "cockpit".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.04375, y=-0.18456, z=-0.53552
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding node "GTO_carbody_max" with parent "gto1" to subtree rooted on max-node "base01".
+Attaching object to node.
+Adding object named "GTO_carbody_max".
+Adding mesh of size 1 to object "GTO_carbody_max".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 25 to object "GTO_carbody_max".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 50 to object "GTO_carbody_max".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding mesh of size 100 to object "GTO_carbody_max".
+Object offset transform:
+    scale:            x=1.00000, y=1.00000, z=1.00000
+    stretch rotation: x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=-0.00000, w=1.00000
+Adding object named "hud".
+Adding mesh of size -1 to object "hud".
+Adding object named "inside_fromout".
+Adding mesh of size 100 to object "inside_fromout".
+Adding mesh of size 50 to object "inside_fromout".
+Adding mesh of size 25 to object "inside_fromout".
+Adding mesh of size 1 to object "inside_fromout".
+Adding object named "GTO_carbody_high".
+Adding mesh of size -1 to object "GTO_carbody_high".
+Adding object named "GTO_carbody_low".
+Adding mesh of size -1 to object "GTO_carbody_low".
+Adding object named "GTO_carbody_med".
+Adding mesh of size -1 to object "GTO_carbody_med".
+
+Third pass:  Collapsing unneeded nodes...
+
+
+Add default object states...
+
+Adding object state to 4 detail level(s) of mesh "cockpit".
+Adding frame.
+Object is visible.
+1790 faces, 5370 verts, 5370 tverts before cropping textures and joining verts
+1790 faces, 5370 verts, 5370 tverts before cropping textures and joining verts
+1790 faces, 5370 verts, 5370 tverts before cropping textures and joining verts
+1790 faces, 5370 verts, 5370 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "col".
+Adding frame.
+Object is visible.
+40 faces, 120 verts, 120 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 4 detail level(s) of mesh "gto".
+Adding frame.
+Object is visible.
+---------------------------------
+Adding object state to 4 detail level(s) of mesh "glass".
+Adding frame.
+Object is visible.
+96 faces, 288 verts, 288 tverts before cropping textures and joining verts
+96 faces, 288 verts, 288 tverts before cropping textures and joining verts
+96 faces, 288 verts, 288 tverts before cropping textures and joining verts
+96 faces, 288 verts, 288 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 4 detail level(s) of mesh "GTO_carbody_max".
+Adding frame.
+Object is visible.
+4079 faces, 12237 verts, 12237 tverts before cropping textures and joining verts
+4079 faces, 12237 verts, 12237 tverts before cropping textures and joining verts
+4079 faces, 12237 verts, 12237 tverts before cropping textures and joining verts
+4079 faces, 12237 verts, 12237 tverts before cropping textures and joining verts
+---------------------------------
+
+Add default node states...
+
+Adding node rotation at time 0 for node "base01".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "base01".
+  translation:     x=-0.00010, y=0.23714, z=0.21725
+---------------------------------
+Adding node rotation at time 0 for node "start01".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "start01".
+  translation:     x=0.00000, y=0.00000, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "gto1".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "gto1".
+  translation:     x=0.02139, y=0.18185, z=-0.00001
+---------------------------------
+Adding node rotation at time 0 for node "SORT::glass".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "SORT::glass".
+  translation:     x=0.00006, y=0.00001, z=0.00002
+---------------------------------
+Adding node rotation at time 0 for node "eye".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "eye".
+  translation:     x=0.35782, y=0.48349, z=0.74467
+---------------------------------
+Adding node rotation at time 0 for node "cam".
+  rotation:     x=-0.49998, y=-0.49998, z=-0.49998, w=0.49998
+---------------------------------
+Adding node translation at time 0 for node "cam".
+  translation:     x=0.35782, y=0.48070, z=0.73789
+---------------------------------
+Adding node rotation at time 0 for node "col-1".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "col-1".
+  translation:     x=0.00000, y=0.07970, z=0.00001
+---------------------------------
+Adding node rotation at time 0 for node "hub0".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "hub0".
+  translation:     x=0.69544, y=-1.22716, z=0.45587
+---------------------------------
+Adding node rotation at time 0 for node "wheel04".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "wheel04".
+  translation:     x=0.00010, y=-0.00929, z=-0.01129
+---------------------------------
+Adding node rotation at time 0 for node "hub1".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "hub1".
+  translation:     x=-0.69500, y=-1.22716, z=0.45587
+---------------------------------
+Adding node rotation at time 0 for node "wheel05".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "wheel05".
+  translation:     x=0.00012, y=0.00006, z=0.00029
+---------------------------------
+Adding node rotation at time 0 for node "hub2".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "hub2".
+  translation:     x=-0.68650, y=1.15884, z=0.48280
+---------------------------------
+Adding node rotation at time 0 for node "wheel02".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "wheel02".
+  translation:     x=0.00015, y=0.00036, z=-0.00031
+---------------------------------
+Adding node rotation at time 0 for node "hub3".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "hub3".
+  translation:     x=0.68677, y=1.15884, z=0.48280
+---------------------------------
+Adding node rotation at time 0 for node "wheel03".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "wheel03".
+  translation:     x=0.00039, y=0.00036, z=-0.00031
+---------------------------------
+Adding node rotation at time 0 for node "shocktargetlrt".
+  rotation:     x=-0.00598, y=-0.97302, z=0.22910, w=-0.02545
+---------------------------------
+Adding node translation at time 0 for node "shocktargetlrt".
+  translation:     x=0.43591, y=0.80802, z=-0.15828
+---------------------------------
+Adding node rotation at time 0 for node "shocktarget01".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "shocktarget01".
+  translation:     x=-0.45240, y=-1.23050, z=-0.08032
+---------------------------------
+Adding node rotation at time 0 for node "shocktargetrrt".
+  rotation:     x=0.00488, y=-0.97412, z=0.22489, w=0.02124
+---------------------------------
+Adding node translation at time 0 for node "shocktargetrrt".
+  translation:     x=-0.43600, y=0.81541, z=-0.11870
+---------------------------------
+Adding node rotation at time 0 for node "shocktargetrrb".
+  rotation:     x=-0.33790, y=0.00000, z=-0.94116, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "shocktargetrrb".
+  translation:     x=-0.39663, y=1.15499, z=-0.11248
+---------------------------------
+Adding node rotation at time 0 for node "shocktargetlrb".
+  rotation:     x=0.33378, y=0.00000, z=-0.94263, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "shocktargetlrb".
+  translation:     x=0.39700, y=1.14832, z=-0.12974
+---------------------------------
+Adding node rotation at time 0 for node "shocktarget".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "shocktarget".
+  translation:     x=0.45200, y=-1.22383, z=-0.14284
+---------------------------------
+Adding node rotation at time 0 for node "cockpit".
+  rotation:     x=0.00000, y=0.00000, z=-1.00000, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "cockpit".
+  translation:     x=0.03212, y=-0.21855, z=0.53679
+---------------------------------
+Adding node rotation at time 0 for node "GTO_carbody_max".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "GTO_carbody_max".
+  translation:     x=0.00000, y=0.00000, z=0.00000
+---------------------------------
+
+Adding 0 sequences...
+
+
+Optimizing meshes...
+
+Optimizing mesh "cockpit" detail level 1.
+5370 verts before joining verts
+2165 verts after joining verts
+1790 faces before stripping
+Using quick and dirty stripping method.
+537 strips with average length 5.73 (range 3 to 67) and 212 reversals
+Results in 2367 cache misses
+
+Optimizing mesh "cockpit" detail level 25.
+5370 verts before joining verts
+2165 verts after joining verts
+1790 faces before stripping
+Using quick and dirty stripping method.
+537 strips with average length 5.73 (range 3 to 67) and 212 reversals
+Results in 2367 cache misses
+
+Optimizing mesh "cockpit" detail level 50.
+5370 verts before joining verts
+2165 verts after joining verts
+1790 faces before stripping
+Using quick and dirty stripping method.
+537 strips with average length 5.73 (range 3 to 67) and 212 reversals
+Results in 2367 cache misses
+
+Optimizing mesh "cockpit" detail level 100.
+5370 verts before joining verts
+2165 verts after joining verts
+1790 faces before stripping
+Using quick and dirty stripping method.
+537 strips with average length 5.73 (range 3 to 67) and 212 reversals
+Results in 2367 cache misses
+
+Optimizing mesh "col" detail level -1.
+120 verts before joining verts
+46 verts after joining verts
+40 faces before stripping
+Using quick and dirty stripping method.
+14 strips with average length 5.07 (range 4 to 11) and 3 reversals
+Results in 48 cache misses
+
+Optimizing mesh "gto" detail level 1.
+0 verts before joining verts
+0 verts after joining verts
+
+Optimizing mesh "gto" detail level 25.
+0 verts before joining verts
+0 verts after joining verts
+
+Optimizing mesh "gto" detail level 50.
+0 verts before joining verts
+0 verts after joining verts
+
+Optimizing mesh "gto" detail level 100.
+0 verts before joining verts
+0 verts after joining verts
+
+Optimizing mesh "glass" detail level 1.
+288 verts before joining verts
+90 verts after joining verts
+
+Optimizing mesh "glass" detail level 25.
+288 verts before joining verts
+90 verts after joining verts
+
+Optimizing mesh "glass" detail level 50.
+288 verts before joining verts
+90 verts after joining verts
+
+Optimizing mesh "glass" detail level 100.
+288 verts before joining verts
+90 verts after joining verts
+
+Optimizing mesh "GTO_carbody_max" detail level 1.
+12237 verts before joining verts
+4182 verts after joining verts
+4071 faces before stripping
+Using quick and dirty stripping method.
+777 strips with average length 8.03 (range 3 to 104) and 614 reversals
+Results in 4728 cache misses
+
+Optimizing mesh "GTO_carbody_max" detail level 25.
+12237 verts before joining verts
+4182 verts after joining verts
+4071 faces before stripping
+Using quick and dirty stripping method.
+777 strips with average length 8.03 (range 3 to 104) and 614 reversals
+Results in 4728 cache misses
+
+Optimizing mesh "GTO_carbody_max" detail level 50.
+12237 verts before joining verts
+4182 verts after joining verts
+4071 faces before stripping
+Using quick and dirty stripping method.
+777 strips with average length 8.03 (range 3 to 104) and 614 reversals
+Results in 4728 cache misses
+
+Optimizing mesh "GTO_carbody_max" detail level 100.
+12237 verts before joining verts
+4182 verts after joining verts
+4071 faces before stripping
+Using quick and dirty stripping method.
+777 strips with average length 8.03 (range 3 to 104) and 614 reversals
+Results in 4728 cache misses
+90 verts before joining verts
+90 verts after joining verts
+90 verts before joining verts
+90 verts after joining verts
+90 verts before joining verts
+90 verts after joining verts
+90 verts before joining verts
+90 verts after joining verts
+
+Shape Hierarchy:
+
+   Details:
+      detail100, Subtree 0, objectDetail 0, size 100
+      detail50, Subtree 0, objectDetail 1, size 50
+      detail25, Subtree 0, objectDetail 2, size 25
+      detail1, Subtree 0, objectDetail 3, size 1
+      collision-1, Subtree 0, objectDetail 4, size -1
+
+   Subtrees:
+      Subtree 0
+         base01
+            start01
+               gto1 --> Object gto with following details:  100 50 25 1
+                  glass --> Object glass with following details:  100 50 25 1
+                  eye
+                  cam
+                  col-1 --> Object col with following details:  -1
+                  hub0
+                     wheel04
+                  hub1
+                     wheel05
+                  hub2
+                     wheel02
+                  hub3
+                     wheel03
+                  shocktargetlrt
+                  shocktarget01
+                  shocktargetrrt
+                  shocktargetrrb
+                  shocktargetlrb
+                  shocktarget
+                  cockpit --> Object cockpit with following details:  100 50 25 1
+                  GTO_carbody_max --> Object GTO_carbody_max with following details:  100 50 25 1
+
+   Sequences:
+
+   Material list:
+   material #0: "GTO_WINDS_IN".  Translucent.
+   material #1: "BLACK".
+   material #2: "GTO_TR_WALL".
+   material #3: "RIMS_CENTER".
+   material #4: "PORTIERE".
+   material #5: "ROLLCAGE".
+   material #6: "GTO_BODY".
+   material #7: "CHROME".
+   material #8: "GTO_VOLANT".
+   material #9: "TIGE".
+   material #10: "GREY".
+   material #11: "GTO_DASH".
+   material #12: "MIRROR".
+   material #13: "HOOD_BELT".
+   material #14: "HEADLIGHT_SIDE".
+   material #15: "FRONT_GRID".
+   material #16: "BACKLIGHTS".
+   material #17: "HEADLCOVER" not tiled.
+   material #18: "HOOD_BELT".
+   material #19: "CAVALINO".  Translucent.
+   material #20: "CAVALINO_HOOD".
+   material #21: "HEADLIGHT".
+
+Checking for duplicate nodes...
+
+Checking for duplicate objects...

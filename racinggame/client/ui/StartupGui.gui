@@ -1,0 +1,48 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiFadeinBitmapCtrl(StartupGui) {
+   profile = "GuiInputCtrlProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+   helpTag = "0";
+   bitmap = "./images/intros/productionlogo";
+   wrap = "0";
+   fadeinTime = "125";
+   waitTime   = "6200";
+   fadeoutTime = "450";
+};
+//--- OBJECT WRITE END ---
+
+function loadStartup()
+{
+   StartupGui.done = false;
+   Canvas.setContent( StartupGui );
+   schedule(100, 0, checkStartupDone );
+   alxPlay(EngineSound1);
+}
+   
+
+//-------------------------------------
+function StartupGui::click()
+{
+   StartupGui.done = true;
+    
+
+
+//-------------------------------------
+function checkStartupDone()
+{
+   if (StartupGui.done)
+   {
+   	  echo ("*** Load Main Menu");
+   
+      loadMainMenu();
+     
+   }
+   else
+      schedule(100, 0, checkStartupDone );
+}
+
